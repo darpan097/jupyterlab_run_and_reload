@@ -1,7 +1,7 @@
 # jupyterlab_run_and_reload
 
-[![Github Actions Status](https://github.com/imcovangent/jupyterlab_run_and_reload.git/workflows/Build/badge.svg)](https://github.com/imcovangent/jupyterlab_run_and_reload.git/actions/workflows/build.yml)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/imcovangent/jupyterlab_run_and_reload.git/main?urlpath=lab)
+[![Github Actions Status](https://github.com/imcovangent/jupyterlab_run_and_reload/workflows/Build/badge.svg)](https://github.com/imcovangent/jupyterlab_run_and_reload/actions?query=workflow%3ABuild)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/imcovangent/jupyterlab_run_and_reload/main?urlpath=lab)
 
 A JupyterLab extension to run all notebook cells and reload static content (e.g. PDF).
 
