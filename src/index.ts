@@ -123,10 +123,11 @@ const plugin: JupyterFrontEndPlugin<void> = {
           } else {
             restarted = true;
           }
-          // TODO: Add check on result + notification if notebook run was not successfull
+          // TODO: Add check on result + notification if notebook run was not successful
           if (restarted) {
-            await NotebookActions.runAll(
+            await NotebookActions.runCells(
               currentWidget.content,
+              currentWidget.content.widgets,
               currentWidget.sessionContext
             );
           }
